@@ -2,6 +2,7 @@
 
   <ItemGroup>
     <ProjectReference Include="..\BuberBreakfast.Contracts\BuberBreakfast.Contracts.csproj" />
+    <PackageReference Include="Swashbuckle.AspNetCore" Version="6.5.0" />
   </ItemGroup>
 
   <PropertyGroup>
@@ -10,7 +11,4 @@
     <ImplicitUsings>enable</ImplicitUsings>
   </PropertyGroup>
 
-<ItemGroup>
-    <PackageReference Include="Swashbuckle.AspNetCore" Version="6.5.0" />
-  </ItemGroup>
 </Project>
